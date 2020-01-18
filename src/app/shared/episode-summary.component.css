@@ -1,6 +1,6 @@
 :host {
   display: flex;
-  height: 40vh;
+  padding: 2rem;
   background-color: #333333;
   flex-direction: column;
   justify-content: center;
@@ -21,7 +21,7 @@ summary {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  height: 150px;
+  height: 170px;
 }
 
 summary {
