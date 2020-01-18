@@ -1,0 +1,13 @@
+<app-episode-summary
+  [episode]="episodes[0]"
+></app-episode-summary>
+
+<h1>Episódios anteriores:</h1>
+
+<article (click)="goto(episode)" *ngFor="let episode of episodes.slice(1, episodes.length)">
+  <h3>Episódio #{{ episode.number }}</h3>
+  <h2>{{ episode.title }}</h2>
+  <h4>{{ episode.published | date: 'shortDate' }}</h4>
+  <p>{{ episode.description }}</p>
+  <p><a [routerLink]="episode.route">Descubra mais</a></p>
+</article>

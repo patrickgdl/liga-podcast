@@ -1,0 +1,64 @@
+:host {
+  display: flex;
+  height: 40vh;
+  background-color: #333333;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+section,
+summary {
+  width: 50%;
+  min-width: 300px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+}
+
+summary {
+  display: block;
+  color: #999;
+  font-size: 1.1em;
+  margin-top: 25px;
+  height: 120px;
+}
+
+summary a {
+  color: #fff;
+}
+
+h1 {
+  display: inline-block;
+  border-left: 2px solid #1ba8c4;
+  padding-left: 7px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 3.5em;
+  text-align: left;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 span {
+  font-size: 0.5em;
+  font-weight: 200;
+}
+
+app-player {
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin-top: 35px;
+  position: relative;
+}

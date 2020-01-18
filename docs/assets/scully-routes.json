@@ -1,0 +1,11 @@
+[
+  { "route": "/" },
+  {
+    "route": "/episode/1-18-2020-primeiro-teste",
+    "title": "Primeiro Podcast (TESTE)",
+    "description": "Hoje discutiremos a aplicação parcial e o curry. No final do episódio, você entenderá quais são esses dois conceitos diferentes, como eles são diferentes um do outro e onde você pode aplicá-los na prática. Entre o episódio, também falaremos sobre o brilhante cientista da computação Haskell Curry e mencionaremos o isomorfismo de Curry-Howard.",
+    "audio": "http://feeds.soundcloud.com/users/soundcloud:users:767553643/sounds.rss",
+    "publish": true
+  },
+  { "route": "/about" }
+]
